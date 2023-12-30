@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coolmate</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  </head>
+  <body>
+    <div id="wrapper" class="wrapper">
+      <div class="header">
+        <!-- navbar phần trên cùng -->
+        <div class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class=" container-fluid height-35">
+            <a class="logo-header navbar-brand ms-3" href="#"
+            ><img
+            src="https://static.coolmate.me/images/logo-coolmate-v2.svg"
+            alt="logo-coolmate"
+            style="height: 18px"
+            /></a>
+            <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            >
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    ><img
+                    src="https://static.coolmate.me/images/logo-cm24-own-new.svg"
+                    alt="logo-cm24"
+                    /></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      <img
+                      src="https://static.coolmate.me/images/logo-84rising-own.svg"
+                      alt="logo-84rising"
+                      style="height: 14px"
+                      />
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      <img
+                      src="https://static.coolmate.me/images/logo-coolxprint.svg"
+                      alt="logo-coolxprint"
+                      style="height: 10px"
+                      />
+                    </a>
+                  </li>
+                </ul>
+            </div>
+            <div
+              class="collapse navbar-collapse justify-content-end me-5"
+              id="navbarText"
+              >
+              <ul class="navbar-nav mb-2 mb-lg-0 height-35">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">
+                    Tham gia CoolClub
+                    <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 18 18"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    style="margin-bottom: 5px"
+                    >
+                    <path
+                    d="M8.15861 1.30996C8.55219 0.697193 9.44781 0.697195 9.84139 1.30996L12.1986 4.97987C12.334 5.19071 12.5436 5.34302 12.786 5.40666L17.0047 6.51442C17.7091 6.69938 17.9859 7.55117 17.5247 8.11484L14.7628 11.4907C14.6042 11.6847 14.5241 11.9311 14.5385 12.1813L14.7886 16.5358C14.8303 17.2629 14.1058 17.7893 13.4272 17.5249L9.36304 15.9415C9.12956 15.8505 8.87044 15.8505 8.63696 15.9415L4.57282 17.5249C3.89423 17.7893 3.16966 17.2629 3.21142 16.5358L3.46153 12.1813C3.4759 11.9311 3.39582 11.6847 3.23716 11.4907L0.475274 8.11484C0.0141246 7.55117 0.290888 6.69938 0.995283 6.51442L5.21399 5.40666C5.45636 5.34302 5.66599 5.19071 5.80141 4.97987L8.15861 1.30996Z"
+                    fill="#4C4C4C"
+                    ></path>
+                  </svg>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Về Coolmate</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Trung tâm CSKH</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Đăng nhập</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <ul class="topbar-promotion nav justify-content-center height-32">
+        <li class="topbar nav-item d-flex">
+          <a class="nav-link active text-light " aria-current="page" href="#"
+          style="font-size: 14px;">Trải nghiệm BST Thu - Đông</a
+            >
+            <div class=" d-flex align-items-center">
+              <a href="">
+                <img
+                src="https://mcdn.coolmate.me/image/August2023/mceclip0_10.png"
+                alt=""
+                style="height: 18px; margin-bottom: 3px; margin-left: 3px"
+                />
+              </a>
+              
+            </div>
+          </li>
+        </ul>
+        <!-- NAV-BAR MAIN -->
+      <div class="nav-main">
+          <nav class="nav-inner navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid bg-dark position-relative">
+              <a class="navbar-brand" href="#">
+                <img src="https://static.coolmate.me/images/logo-coolmate-new.svg?v=1" alt="Logo Coolmate">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-light">
+                  <!-- nav SALE -->
+                  <li class="sub-nav col-sale">
+                    <a class="nav-link text-light fw-bold" aria-current="page" href="#">SALE</a>
+                    <div class="background-col position-absolute w-100">
+                      <div class="dropdown-main">
+                        <div class="dropdown-content-wrapper d-flex bg-light text-dark h-100">
+                          <div class="product-sub-left w-50 p-5">
+                            <div class="product-sale-title-top position-relative">
+                              <h1 class="text-uppercase fs-6 fw-bold">Chương trình sale</h1>
+                            </div>
+                            <div class="product-sale-title-bottom">
+                              <div class="d-flex">
+                                <div class="grid-col me-5">
+                                  <div>
+                                    <div class="item-category-img pt-4 ">
+                                      <img src="./images/images_Sale/mceclip0_91.png" alt="">
+                                      <span class="ms-3 pb-2" >Tất cả SALE</span>
+                                    </div>
+                                  </div>
+                                  <div>
+                                    <div class="item-category-img pt-4 ">
+                                      <img src="./images/images_Sale/mceclip1_23.png" alt="">
+                                      <span class="ms-3 pb-2" >SALE Lớn 50%</span>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="grid-col me-5">
+                                  <div>
+                                <div class="item-category-img pt-4 ">
+                                  <img src="./images/images_Sale/mceclip2_50.png" alt="">
+                                  <span class="ms-3 pb-2" >SALE Áo</span>
+                                </div>
+                              </div>
+                              <div>
+                                <div class="item-category-img pt-4 ">
+                                  <img src="./images/images_Sale/mceclip3_89.png" alt="">
+                                  <span class="ms-3 pb-2" >SALE Quần</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="product-sub-right">
+                        <div class="container text-center py-5 px-4">
+                          <div class="row">
+                            <div class="col w-25">
+                              <a href="">
+                                <div class="menu-item-img position-relative overflow-hidden">
+                                  <img src="./images/images_Sale/mceclip3_6.png" class="w-100" alt="">
+                                  <div class="position-absolute d-flex align-items-end h-100 w-100 top-0 text-light fw-bold fs-6 ps-2 pb-2">Jogger thể thao Graphene</div>
+                                </div>
+                              </a>
+                            </div>
+                            <div class="col w-25">
+                              <a href="">
+                                <div class="menu-item-img position-relative overflow-hidden">
+                                  <img src="./images/images_Sale/mceclip3_6.png" class="w-100" alt="">
+                                  <div class="position-absolute d-flex align-items-end h-100 w-100 top-0 text-light fw-bold fs-6 ps-2 pb-2">Jogger thể thao Graphene</div>
+                                  
+                                </div>
+                              </a>
+                            </div>
+                            <div class="col w-25">
+                              <a href="">
+                                <div class="menu-item-img position-relative overflow-hidden">
+                                  <img src="./images/images_Sale/mceclip3_6.png" class="w-100" alt="">
+                                  <div class="position-absolute d-flex align-items-end h-100 w-100 top-0 text-light fw-bold fs-6 ps-2 pb-2">Jogger thể thao Graphene</div>
+                                  
+                                </div>
+                              </a>
+                            </div>
+                            <div class="col w-25">
+                              <a href="">
+                                <div class="menu-item-img position-relative overflow-hidden">
+                                  <img src="./images/images_Sale/mceclip3_6.png" class="w-100" alt="">
+                                  <div class="position-absolute d-flex align-items-end h-100 w-100 top-0 text-light fw-bold fs-6 ps-2 pb-2">Jogger thể thao Graphene</div>
+                                  
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  </li>
+                <!-- nav PRODUCT -->
+                <li class="sub-nav nav-item">
+                  <a class="nav-link" href="#">SẢN PHẨM</a>
+                  <div class="background-col position-absolute w-100">
+                    <div class="dropdown-main">
+                      <div class="dropdown-content-wrapper d-flex bg-light text-dark h-100">
+                        <div class="product-sub-left d-flex w-75 p-5">
+                          <div class="product-sub-item w-25">
+                            <h1 class="text-uppercase position-relative fs-6 fw-bold">Theo sản phẩm</h1>
+                            <ul class="ps-0 mt-3">
+                              <li class="pt-3">
+                                <a href="" class="text-decoration-none">Tất cả</a></li>
+                                <li class="pt-3">
+                                  <a href="" class="text-decoration-none">Sản phẩm mới</a></li>
+                                </ul>
+                              </div>
+                              <div class="product-sub-item w-25">
+                                <h1 class="text-uppercase position-relative fs-6 fw-bold">Áo nam</h1>
+                                <ul class="ps-0 mt-3">
+                                  <li class="pt-3">
+                                    <a href="" class="text-decoration-none">Tất cả Áo Nam</a></li>
+                                    <li class="pt-3">
+                                      <a href="" class="text-decoration-none">Áo thun</a></li>
+                                      <li class="pt-3">
+                                        <a href="" class="text-decoration-none">Áo sơ mi</a></li>
+                                        <li class="pt-3">
+                                          <a href="" class="text-decoration-none">Áo polo</a></li>
+                                          <li class="pt-3">
+                                            <a href="" class="text-decoration-none">Áo dài tay</a></li>
+                                            <li class="pt-3">
+                                              <a href="" class="text-decoration-none">Áo khoác</a></li>
+                                              <li class="pt-3">
+                                                <a href="" class="text-decoration-none">Áo Tanktop</a></li>
+                                                <li class="pt-3">
+                                                  <a href="" class="text-decoration-none">Áo thể thao</a></li>
+                                                </ul>
+                                              </div>
+                                              <div class="product-sub-item w-25">
+                                                <h1 class="text-uppercase position-relative fs-6 fw-bold">Quần nam</h1>
+                                                <ul class="ps-0 mt-3">
+                                                  <li class="pt-3">
+                                                    <a href="" class="text-decoration-none">Tất cả Quần Nam</a></li>
+                                                    <li class="pt-3">
+                                                      <a href="" class="text-decoration-none">Quần shorts</a></li>
+                                                      <li class="pt-3">
+                                                        <a href="" class="text-decoration-none">Quần jeans</a></li>
+                                                        <li class="pt-3">
+                                                          <a href="" class="text-decoration-none">Quần dài</a></li>
+                                                          <li class="pt-3">
+                                                            <a href="" class="text-decoration-none">Quần thể thao</a></li>
+                                                          </ul>
+                                                        </div>
+                                                        <div class="product-sub-item w-25">
+                                                          <h1 class="text-uppercase position-relative fs-6 fw-bold">Phụ kiện nam</h1>
+                                                          <ul class="ps-0 mt-3">
+                                                            <li class="pt-3">
+                                                              <a href="" class="text-decoration-none">Tất cả phụ kiện</a></li>
+                                                              <li class="pt-3">
+                                                                <a href="" class="text-decoration-none">Tất/Vớ</a></li>
+                                                                <li class="pt-3">
+                                                                  <a href="" class="text-decoration-none">Mũ/nón</a></li>
+                                                                </ul>
+                                                              </div>
+                                                            </div>
+                                                            
+                                                            <div class="product-sub-right w-50 d-flex p-5">
+                                                              <div class="product-sub-img w-50 d-flex align-content-between flex-wrap">
+                                                                <div class="menu-item-img position-relative overflow-hidden">
+                                                                  <img src="./images/images_Product/mceclip0_6.png" class="w-100 h-100" alt="">
+                                                                  <div class="position-absolute bottom-0 w-100 mb-2 ps-2 fw-bold text-secondary-emphasis">Quần dài chạy bộ Fast & Free</div>
+                                                                </div>
+                                                                <div class="menu-item-img position-relative overflow-hidden">
+                                                                  <img src="./images/images_Product/mceclip2_44.png" class="w-100 h-100" alt="">
+                                                                  <div class="position-absolute bottom-0 w-100 mb-2 ps-2 fw-bold text-secondary-emphasis">Quần dài Kaki Excool</div>
+                            </div>
+                          </div>
+                          <div class="menu-item-img product-sub-img w-50 position-relative ms-4 overflow-hidden">
+                            <img src="./images/images_Product/mceclip1_57.png" class="w-100 h-100" alt="">
+                            <div class="position-absolute ms-2 bottom-0 w-100 mb-2 fw-bold text-secondary-emphasis">Jeans Basics dáng Slim fit</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </li>
+                <!-- nav UNDERWEAR -->
+                <li class="sub-nav nav-item">
+                  <a class="nav-link" href="#">ĐỒ LÓT</a>
+                  <div class="background-col position-absolute w-100">
+                    <div class="dropdown-main">
+                      <div class="dropdown-content-wrapper d-flex bg-light text-dark h-90">
+                        <div class="product-sub-left d-flex w-90">
+                          <div class="product-sub-item w-50 p-5">
+                            <h1 class="text-uppercase position-relative fs-6 fw-bold">Theo sản phẩm</h1>
+                            <ul class="ps-0 mt-3">
+                              <li class="pt-3">
+                                <a href="" class="text-decoration-none">Tất cả</a></li>
+                                <li class="pt-3">
+                                  <a href="" class="text-decoration-none">Brief(Tam giác)</a></li>
+                                  <li class="pt-3">
+                                    <a href="" class="text-decoration-none">Trunk (Boxer)</a></li>
+                                    <li class="pt-3">
+                                      <a href="" class="text-decoration-none">Boxer Brief (Boxer dài)</a></li>
+                                      <li class="pt-3">
+                                        <a href="" class="text-decoration-none">Long Leg</a></li>
+                                        <li class="pt-3">
+                                          <a href="" class="text-decoration-none">Boxer shorts</a></li>
+                                          <li class="pt-3">
+                                            <a href="" class="text-decoration-none">Long Tights</a></li>
+                                          </ul>
+                          </div>
+                          <div class="product-sub-item w-60 p-5 border-left-1 ">
+                            <h1 class="text-uppercase position-relative fs-6 fw-bold">Theo nhu cầu</h1>
+                            <div>
+                              <div class="item-category-img pt-4 ">
+                                <img src="./images/images_Sale/mceclip0_91.png" class="height-40" alt="">
+                                <span class="ms-3 pb-2" >Mặc hàng ngày</span>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="item-category-img pt-4 ">
+                                <img src="./images/images_Sale/mceclip1_23.png" class="height-40" alt="">
+                                <span class="ms-3 pb-2" >Chơi thể thao</span>
+                              </div>
+                            </div>
+                          </div>
+                      
+                        </div>
+                        
+                        <div class="product-sub-right w-50 d-flex p-5">
+                          <div class="product-sub-img w-50 d-flex align-content-between flex-wrap">
+                            <div class="menu-item-img position-relative overflow-hidden">
+                              <img src="./images/images_Product/mceclip0_6.png" class="w-100 h-100" alt="">
+                              <div class="position-absolute bottom-0 w-100 mb-2 ps-2 fw-bold text-secondary-emphasis">Quần dài chạy bộ Fast & Free</div>
+                            </div>
+                            <div class="menu-item-img position-relative overflow-hidden">
+                              <img src="./images/images_Product/mceclip2_44.png" class="w-100 h-100" alt="">
+                              <div class="position-absolute bottom-0 w-100 mb-2 ps-2 fw-bold text-secondary-emphasis">Quần dài Kaki Excool</div>
+                            </div>
+                          </div>
+                          <div class="menu-item-img product-sub-img w-50 position-relative ms-4 overflow-hidden">
+                            <img src="./images/images_Product/mceclip1_57.png" class="w-100 h-100" alt="">
+                            <div class="position-absolute ms-2 bottom-0 w-100 mb-2 fw-bold text-secondary-emphasis">Jeans Basics dáng Slim fit</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                <!-- nav SPORTSWEAR -->
+                <li class="sub-nav nav-item">
+                  <a class="nav-link" href="#">ĐỒ THỂ THAO</a>
+                  <div class="background-col position-absolute w-100">
+                    <div class="dropdown-main">
+                      <div class="dropdown-content-wrapper d-flex bg-light text-dark h-90">
+                        <div class="product-sub-left d-flex w-90">
+                          <div class="product-sub-item w-50 p-5">
+                            <h1 class="text-uppercase position-relative fs-6 fw-bold">Theo sản phẩm</h1>
+                            <ul class="ps-0 mt-3">
+                              <div class="d-flex">
+                                
+                                <div class="w-50">
+                                  <li class="pt-3">
+                                    <a href="" class="text-decoration-none">Tất cả</a>
+                                  </li>
+                                  <li class="pt-3">
+                                    <a href="" class="text-decoration-none">Sản phẩm mới</a>
+                                  </li>
+                                  <li class="pt-3">
+                                    <a href="" class="text-decoration-none">Áo T-shirt</a>
+                                  </li>
+                                  <li class="pt-3">
+                                    <a href="" class="text-decoration-none">Áo Tanktop</a>
+                                  </li>
+                                  <li class="pt-3">
+                                    <a href="" class="text-decoration-none">Áo Polo</a>
+                                  </li>
+                                  <li class="pt-3">
+                                    <a href="" class="text-decoration-none">Áo Dài Tay</a>
+                                  </li>
+                                  <li class="pt-3">
+                                    <a href="" class="text-decoration-none">Áo Khoác</a>
+                                  </li>
+                                </div>
+                                <div class="w-50">
+                                  <li class="pt-3">
+                                    <a href="" class="text-decoration-none">Quần Shorts</a></li>
+                                    <li class="pt-3">
+                                      <a href="" class="text-decoration-none">Quần Joggers</a></li>
+                                      <li class="pt-3">
+                                        <a href="" class="text-decoration-none">Phụ kiện</a></li>
+                                      </div>
+                                    </div>
+                                  </ul>
+                                </div>
+                                <div class="product-sub-item w-60 p-5 border-left-1 ">
+                            <h1 class="text-uppercase position-relative fs-6 fw-bold">Theo nhu cầu</h1>
+                              <div class="d-flex justify-content-between">
+                                <div class="">
+                                  <div class="item-category-img pt-4 ">
+                                    <img src="./images/images_Sale/mceclip0_91.png" class="height-40" alt="">
+                                    <span class="ms-3 pb-2" >Chạy bộ</span>
+                                  </div>
+                                  <div class="item-category-img pt-4 ">
+                                    <img src="./images/images_Sale/mceclip1_23.png" class="height-40" alt="">
+                                    <span class="ms-3 pb-2" >Tập Gym</span>
+                                  </div>
+                                  <div class="item-category-img pt-4 ">
+                                    <img src="./images/images_Sale/mceclip0_91.png" class="height-40" alt="">
+                                    <span class="ms-3 pb-2" >Đồ Thu Đông</span>
+                                  </div>
+                                </div>  
+                              <div class="">
+                                <div class="item-category-img pt-4 ">
+                                  <img src="./images/images_Sale/mceclip1_23.png" class="height-40" alt="">
+                                  <span class="ms-3 pb-2" >Đồ bơi</span>
+                                </div>
+                                <div class="item-category-img pt-4 ">
+                                  <img src="./images/images_Sale/mceclip0_91.png" class="height-40" alt="">
+                                  <span class="ms-3 pb-2" >Thể thao chung</span>
+                                </div>
+                                <div class="item-category-img pt-4 ">
+                                  <img src="./images/images_Sale/mceclip1_23.png" class="height-40" alt="">
+                                  <span class="ms-3 pb-2" >Bóng rỗ</span>
+                                </div>
+                              </div>  
+                            </div>  
+                              
+                          </div>
+                      
+                        </div>
+                        
+                        <div class="product-sub-right w-50 d-flex p-5">
+                          <div class="product-sub-img w-50 d-flex align-content-between flex-wrap">
+                            <div class="menu-item-img position-relative overflow-hidden">
+                              <img src="./images/images_Product/mceclip0_6.png" class="w-100 h-100" alt="">
+                              <div class="position-absolute bottom-0 w-100 mb-2 ps-2 fw-bold text-secondary-emphasis">Quần dài chạy bộ Fast & Free</div>
+                            </div>
+                            <div class="menu-item-img position-relative overflow-hidden">
+                              <img src="./images/images_Product/mceclip2_44.png" class="w-100 h-100" alt="">
+                              <div class="position-absolute bottom-0 w-100 mb-2 ps-2 fw-bold text-secondary-emphasis">Quần dài Kaki Excool</div>
+                            </div>
+                          </div>
+                          <div class="menu-item-img product-sub-img w-50 position-relative ms-4 overflow-hidden">
+                            <img src="./images/images_Product/mceclip1_57.png" class="w-100 h-100" alt="">
+                            <div class="position-absolute ms-2 bottom-0 w-100 mb-2 fw-bold text-secondary-emphasis">Jeans Basics dáng Slim fit</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </li>
+                <!-- nav EVERYDAYWEAR -->
+                <li class="sub-nav nav-item">
+                  <a class="nav-link" href="#">MẶC HÀNG NGÀY</a>
+                  <div class="background-col position-absolute w-100">
+                    <div class="dropdown-main">
+                      <div class="dropdown-content-wrapper d-flex bg-light text-dark h-100">
+                        <div class="product-sub-left d-flex w-90">
+                          <div class="product-sub-item w-50 p-5">
+                            <h1 class="text-uppercase position-relative fs-6 fw-bold">Theo sản phẩm</h1>
+                            <ul class="ps-0 mt-3">
+                              <div class="d-flex">
+  
+                                <div class="w-50">
+                                  <li class="pt-3">
+                                    <a href="" class="text-decoration-none">Tất cả</a>
+                                  </li>
+                                  <li class="pt-3">
+                                    <a href="" class="text-decoration-none">Sản phẩm mới</a>
+                                  </li>
+                                  <li class="pt-3">
+                                    <a href="" class="text-decoration-none">Áo T-shirt</a>
+                                  </li>
+                                  <li class="pt-3">
+                                    <a href="" class="text-decoration-none">Áo Tanktop</a>
+                                  </li>
+                                  <li class="pt-3">
+                                    <a href="" class="text-decoration-none">Áo Polo</a>
+                                  </li>
+                                  <li class="pt-3">
+                                            <a href="" class="text-decoration-none">Áo Dài Tay</a>
+                                          </li>
+                                            <li class="pt-3">
+                                              <a href="" class="text-decoration-none">Áo Khoác</a>
+                                            </li>
+                                </div>
+                                <div class="w-50">
+                                  <li class="pt-3">
+                                    <a href="" class="text-decoration-none">Quần Shorts</a></li>
+                                    <li class="pt-3">
+                                      <a href="" class="text-decoration-none">Quần Joggers</a></li>
+                                      <li class="pt-3">
+                                        <a href="" class="text-decoration-none">Phụ kiện</a></li>
+                                              </div>
+                                            </div>
+                            </ul>
+                          </div>
+                          <div class="product-sub-item w-60 p-5 border-left-1 ">
+                            <h1 class="text-uppercase position-relative fs-6 fw-bold">Bộ sưu tập</h1>
+                              <div class="d-flex justify-content-between">
+                                <div class="">
+                                  <div class="item-category-img pt-4 ">
+                                    <img src="./images/images_Sale/mceclip0_91.png" class="height-40" alt="">
+                                    <span class="ms-3 pb-2" >Chạy bộ</span>
+                                  </div>
+                                  <div class="item-category-img pt-4 ">
+                                    <img src="./images/images_Sale/mceclip1_23.png" class="height-40" alt="">
+                                    <span class="ms-3 pb-2" >Tập Gym</span>
+                                  </div>
+                                  <div class="item-category-img pt-4 ">
+                                    <img src="./images/images_Sale/mceclip0_91.png" class="height-40" alt="">
+                                    <span class="ms-3 pb-2" >Đồ Thu Đông</span>
+                                  </div>
+                                </div>  
+                              <div class="">
+                                <div class="item-category-img pt-4 ">
+                                  <img src="./images/images_Sale/mceclip1_23.png" class="height-40" alt="">
+                                  <span class="ms-3 pb-2" >Đồ bơi</span>
+                                </div>
+                                <div class="item-category-img pt-4 ">
+                                  <img src="./images/images_Sale/mceclip0_91.png" class="height-40" alt="">
+                                  <span class="ms-3 pb-2" >Thể thao chung</span>
+                                </div>
+                                <div class="item-category-img pt-4 ">
+                                  <img src="./images/images_Sale/mceclip1_23.png" class="height-40" alt="">
+                                  <span class="ms-3 pb-2" >Bóng rỗ</span>
+                                </div>
+                              </div>  
+                            </div>  
+                              
+                          </div>
+                      
+                        </div>
+                        
+                        <div class="product-sub-right w-50 d-flex p-5">
+                          <div class="product-sub-img w-50 d-flex flex-wrap">
+                            <div class="menu-item-img position-relative overflow-hidden  mb-20">
+                              <img src="./images/images_Product/mceclip0_6.png" class="w-100 h-100" alt="">
+                              <div class="position-absolute bottom-0 w-100 mb-2 ps-2 fw-bold text-secondary-emphasis">Quần dài chạy bộ Fast & Free</div>
+                            </div>
+                            <div class="menu-item-img position-relative overflow-hidden">
+                              <img src="./images/images_Product/mceclip2_44.png" class="w-100 h-100" alt="">
+                              <div class="position-absolute bottom-0 w-100 mb-2 ps-2 fw-bold text-secondary-emphasis">Quần dài Kaki Excool</div>
+                            </div>
+                          </div>
+                          <div class="menu-item-img product-sub-img w-50 position-relative ml-20 overflow-hidden">
+                            <img src="./images/images_Product/mceclip1_57.png" class="w-100 h-100" alt="">
+                            <div class="position-absolute ms-2 bottom-0 w-100 mb-2 fw-bold text-secondary-emphasis">Jeans Basics dáng Slim fit</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </li>
+                <!-- nav PERFUME -->
+                <li class="sub-nav nav-item">
+                  <a class="nav-link" href="#">NƯỚC HOA</a>
+                  <div class="background-col position-absolute w-100">
+                    <div class="dropdown-main">
+                      <div class="dropdown-content-wrapper d-flex bg-light text-dark h-90">
+                        <div class="product-sub-left d-flex w-90">
+                          <div class="product-sub-item w-50 p-5">
+                            <h1 class="text-uppercase position-relative fs-6 fw-bold">Theo sản phẩm</h1>
+                            <ul class="ps-0 mt-3">
+                              <div class="d-flex">
+  
+                                <div class="w-50">
+                                  <li class="pt-3">
+                                    <a href="" class="text-decoration-none">Tất cả</a>
+                                  </li>
+                                  <li class="pt-3">
+                                    <a href="" class="text-decoration-none">Sản phẩm mới</a>
+                                  </li>
+                                  <li class="pt-3">
+                                    <a href="" class="text-decoration-none">Áo T-shirt</a>
+                                  </li>
+                                  <li class="pt-3">
+                                    <a href="" class="text-decoration-none">Áo Tanktop</a>
+                                  </li>
+                                  <li class="pt-3">
+                                    <a href="" class="text-decoration-none">Áo Polo</a>
+                                  </li>
+                                  <li class="pt-3">
+                                            <a href="" class="text-decoration-none">Áo Dài Tay</a>
+                                          </li>
+                                            <li class="pt-3">
+                                              <a href="" class="text-decoration-none">Áo Khoác</a>
+                                            </li>
+                                </div>
+                            </ul>
+                          </div>
+                          <div class="product-sub-item w-60 p-5 border-left-1 ">
+                            <h1 class="text-uppercase position-relative fs-6 fw-bold">Bộ sưu tập</h1>
+                              <div class="d-flex justify-content-between">
+                                <div class="">
+                                  <div class="item-category-img pt-4 ">
+                                    <img src="./images/images_Sale/mceclip0_91.png" class="height-40" alt="">
+                                    <span class="ms-3 pb-2" >Chạy bộ</span>
+                                  </div>
+                                  <div class="item-category-img pt-4 ">
+                                    <img src="./images/images_Sale/mceclip1_23.png" class="height-40" alt="">
+                                    <span class="ms-3 pb-2" >Tập Gym</span>
+                                  </div>
+                                </div>  
+                            </div>  
+                              
+                          </div>
+                      
+                        </div>
+                        
+                        <div class="product-sub-right w-50 d-flex p-5">
+                          <div class="product-sub-img w-50 d-flex align-content-between flex-wrap">
+                            <div class="menu-item-img position-relative overflow-hidden">
+                              <img src="./images/images_Product/mceclip0_6.png" class="w-100 h-100" alt="">
+                              <div class="position-absolute bottom-0 w-100 mb-2 ps-2 fw-bold text-secondary-emphasis">Quần dài chạy bộ Fast & Free</div>
+                            </div>
+                            <div class="menu-item-img position-relative overflow-hidden">
+                              <img src="./images/images_Product/mceclip2_44.png" class="w-100 h-100" alt="">
+                              <div class="position-absolute bottom-0 w-100 mb-2 ps-2 fw-bold text-secondary-emphasis">Quần dài Kaki Excool</div>
+                            </div>
+                          </div>
+                          <div class="menu-item-img product-sub-img w-50 position-relative ms-4 overflow-hidden">
+                            <img src="./images/images_Product/mceclip1_57.png" class="w-100 h-100" alt="">
+                            <div class="position-absolute ms-2 bottom-0 w-100 mb-2 fw-bold text-secondary-emphasis">Jeans Basics dáng Slim fit</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </li>
+                <!-- nav OWN PRODUCTION -->
+                <li class="sub-nav nav-item">
+                  <a class="nav-link" href="#">SẢN XUẤT RIÊNG</a>
+                  <div class="background-col position-absolute w-100">
+                    <div class="dropdown-main">
+                      <div class="dropdown-content-wrapper d-flex bg-light text-dark h-100">
+                        <div class="w-100 d-flex mx-15 py-5">
+                          <div class="product-sub-left w-50">
+                            <h1>CoolxPrint</h1>
+                            <span class="opacity-50 fw-medium">Đặt sản xuất chưa bao giờ đơn giản đến thế</span>
+                            <div class="d-flex w-80 my-4">
+                              <div class="w-33 boder-1 rounded-4 me-2 d-flex flex-column align-items-center justify-content-center py-2">
+                                <i class="fa fa-print fs-1 color-hover h-50 mb-2" aria-hidden="true"></i>
+                                <p class="text-center h-50 fw-semibold fs-6">Số lượng ít</p>
+                              </div>
+                              <div class="w-33 boder-1 rounded-4 me-2 d-flex flex-column align-items-center justify-content-center py-2">
+                                <i class="fa fa-print fs-1 color-hover h-50" aria-hidden="true"></i>
+                                <p class="text-center h-50 fw-semibold fs-6">Giá cả cạnh tranh</p>
+                              </div>
+                              <div class="w-33 boder-1 rounded-4 d-flex flex-column align-items-center justify-content-center py-2">
+                                <i class="fa fa-print fs-1 color-hover h-50" aria-hidden="true"></i>
+                                <p class="text-center h-50 fw-semibold fs-6">Bảo hành 60 ngày</p>
+                              </div>
+                            </div>
+                            <button class="px-5 py-2 bg-hover rounded-pill text-light fw-bold">Khám phá ngay</button>
+                          </div>
+                          <div class="product-sub-right w-50 border-left-1 d-flex ps-5">
+                            <div class="product-sub-img w-50 d-flex flex-wrap">
+                              <div class="menu-item-img position-relative overflow-hidden mb-4">
+                                <img src="./images/images_Product/mceclip0_6.png" class="w-100 h-100" alt="">
+                                <div class="position-absolute bottom-0 w-100 mb-2 ps-2 fw-bold text-secondary-emphasis">Quần dài chạy bộ Fast & Free</div>
+                              </div>
+                              <div class="menu-item-img position-relative overflow-hidden">
+                                <img src="./images/images_Product/mceclip2_44.png" class="w-100 h-100" alt="">
+                                <div class="position-absolute bottom-0 w-100 mb-2 ps-2 fw-bold text-secondary-emphasis">Quần dài Kaki Excool</div>
+                              </div>
+                            </div>
+                            <div class="product-sub-img w-50 d-flex flex-wrap ms-4">
+                              <div class="menu-item-img position-relative overflow-hidden mb-4">
+                                <img src="./images/images_Product/mceclip0_6.png" class="w-100 h-100" alt="">
+                                <div class="position-absolute bottom-0 w-100 mb-2 ps-2 fw-bold text-secondary-emphasis">Quần dài chạy bộ Fast & Free</div>
+                              </div>
+                              <div class="menu-item-img position-relative overflow-hidden">
+                                <img src="./images/images_Product/mceclip2_44.png" class="w-100 h-100" alt="">
+                                <div class="position-absolute bottom-0 w-100 mb-2 ps-2 fw-bold text-secondary-emphasis">Quần dài Kaki Excool</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </li>
+                <!-- nav CARE&SHARE-->
+                <li class="sub-nav nav-item">
+                  <a class="nav-link" href="#">CARE&SHARE</a>
+                  <div class="background-col position-absolute w-100">
+                    <div class="dropdown-main">
+                      <div class="dropdown-content-wrapper d-flex bg-light text-dark h-75">
+                        <div class="product-sub-left d-flex w-50">
+                          <div class="product-sub-item w-75 p-5">
+                            <h1 class="text-uppercase position-relative fs-6 fw-bold">Theo sản phẩm</h1>
+                            <ul class="ps-0 mt-3">
+                              <div class="d-flex">
+  
+                                <div class="w-50">
+                                  <li class="pt-3">
+                                    <a href="" class="text-decoration-none">Tất cả</a>
+                                  </li>
+                                  <li class="pt-3">
+                                    <a href="" class="text-decoration-none">Sản phẩm mới</a>
+                                  </li>
+                                  <li class="pt-3">
+                                    <a href="" class="text-decoration-none">Áo T-shirt</a>
+                                  </li>
+                                  <!-- <li class="pt-3">
+  
+                                </div> -->
+                            </ul>
+                          </div>
+                          <div class="product-sub-item w-60 p-5 border-left-1 ">
+                            <h1 class="text-uppercase position-relative fs-6 fw-bold">Bộ sưu tập</h1>
+                              <div class="d-flex justify-content-between">
+                                <div class="">
+                                  <div class="item-category-img pt-4 ">
+                                    <img src="./images/images_Sale/mceclip0_91.png" class="height-40" alt="">
+                                    <span class="ms-3 pb-2" >Chạy bộ</span>
+                                  </div>
+                                  <div class="item-category-img pt-4 ">
+                                    <img src="./images/images_Sale/mceclip1_23.png" class="height-40" alt="">
+                                    <span class="ms-3 pb-2" >Tập Gym</span>
+                                  </div>
+                                </div>  
+                            </div>  
+                              
+                          </div>
+                      
+                        </div>
+                        
+                        <div class="product-sub-right w-50 d-flex p-5">
+                          <div class="w-100">
+                            <p class="text-center opacity-50">Coolmate cam kết dành 10% doanh thu từ sản phẩm “Care &amp; Share” đóng góp vào quỹ để tổ chức các hoạt động thiện nguyện dành cho trẻ em có hoàn cảnh khó khăn.</p>
+                            <img src="./images/images_Care&amp;Share/mceclip0_6.png" alt="" class="w-100">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </li>
+                <div class="form-menu d-flex align-items-center align-items-center" role="search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <input class="form-control me-2 rounded-5" type="search" placeholder="Tìm kiếm sản phẩm..." aria-label="Search">
+                <div class="header-action d-flex justify-content-center align-items-center">
+                  <a href="" class="log-in">
+                    <i class="fa fa-user text-light" aria-hidden="true"></i>
+                  </a>
+                </div>
+                <!-- start .header-action -->
+                <div class="header-action d-flex justify-content-center">
+                  <a href="" class="cart-shopping">
+                    <i class="fa fa-shopping-bag text-light" aria-hidden="true"></i>
+                  </a>
+                  <span class="count-cart">2</span>
+                  <div class="header-action__menu">
+                    <div class="header-action__inner">
+                      <div class="mini-cart">
+                        <div class="mini-cart__wrapper">
+                          <div class="mini-cart__header d-flex justify-content-between">
+                              <span>1 sản phẩm</span>
+                              <a href="#">Xem tất cả</a>
+                          </div>
+                          <div class="mini-cart__item-main overflow-auto pe-2">
+                            <div class="mini-cart__item mt-3">
+                              <div class="row g-0">
+                                <div class="col-md-4">
+                                  <img src="./images/USA_REU_1.jpeg" class="item-img img-fluid rounded" alt="...">
+                                </div>
+                                <div class="col-md-8 py-4">
+                                  <div class="mini-card__item-title d-flex justify-content-between">
+                                    <a href="" class="text-decoration-none fs-6 text-dark fw-bold">Polo Pique Cotton USA</a>
+                                    <span>✕</span>
+                                  </div>
+                                  <div class="mini-card__item-infor">Xanh Rêu / M</div>
+                                  <div class="mini-card__item-price">
+                                    <span class="item-price fs-5">279.000đ</span>
+                                    <del class="item-price-compare text-body-tertiary">399.000đ</del>
+                                  </div>
+                                  <div class="mini-card__item-quantity">
+                                    <span>x1</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+              <!-- end .header-action -->
+              <div class="header-search position-absolute w-100 h-100 start-0">
+                  <div class="form-search bg-light-subtle w-100 position-absolute">
+                    <div class="w-100 h-100 d-flex justify-content-center align-items-center">
+                      <form class="w-50 position-relative" role="search">
+                        <div class=" w-75 mx-auto position-relative">
+                          <input class="form-control mx-auto w-100" type="search" placeholder="Search" aria-label="Search">
+                          <i class="fa fa-search" aria-hidden="true"></i>
+                        </div>
+                        <div class="exit-menu-search position-absolute d-flex justify-content-center align-items-center">
+                          <i class="fa fa-times" aria-hidden="true"></i>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="menu-search bg-info position-absolute w-100 d-flex justify-content-center">
+                    <div class="menu-search-content text-bg-warning w-75 h-25 position-absolute "></div>
+                  </div>
+              </div>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      
+    </div>
+  <div id="main">
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="./images/sliders/BANNER_WINTER_CLT_(ccmaNdbnn).png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./images/sliders/BANNER_WINTER_CLT_(ccmfnlfnal).png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/sliders/612LOOKBACK-BANNER.jpeg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</div>
+  <!-- end header -->
+  <script src="app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
