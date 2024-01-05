@@ -148,6 +148,7 @@ input:focus {outline:none!important;}
 
 .dropdown-content-wrapper {
   background: #fff;
+  margin: 0 1rem;
   /* color: #000; */
   /* height: 100%; */
 }
@@ -557,8 +558,8 @@ input:focus {outline:none!important;}
   margin-bottom: 50px;
 }
 
-.content-products {
-
+.content-products .product_tab{
+  font-family: 'CriteriaCF';
 }
 
 .content-products .product_tab button:first-child {
@@ -599,6 +600,13 @@ input:focus {outline:none!important;}
   opacity: 0;
 }
 
+.content-products .product-container-img .product-tags {
+  cursor: default;
+  background: #2f5acf;
+  font-size: 0.75rem;
+}
+
+
 .content-products .product-thumnail:hover .product-select {
   opacity: 1;
   transform: translateY(-1.5rem);
@@ -606,7 +614,7 @@ input:focus {outline:none!important;}
 
 .content-products .item-product .product-select .size {
   padding: 8px;
-  width: 23%;
+  width: 3.2rem;
   border-radius: 10px;
   border: 0.5px solid #d6cbcb;
   align-items: center;
@@ -636,3 +644,114 @@ input:focus {outline:none!important;}
   background-image: url(./images/products-slider/mau_vai_combo-5.jpeg);
   background-position: 50%;
 }
+
+.content-products .product-slider .slick-arrow:first-child {
+  display: block;
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  left: -3rem;
+  border-radius: 26px;
+}
+
+.content-products .product-slider .slick-arrow i {
+  display: flex;
+    background: #000;
+    width: 3rem;
+    height: 3rem;
+    color: #000;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* .content-banner-block */
+.content-banner-block .banner-block_content {
+  bottom: 20%;
+}
+
+.content-banner-block .banner-block_content h1{
+  font-size: 6.5rem;
+}
+
+.banner-block_content .banner-block-button a{
+  font-family: 'CriteriaCF';
+  color: #fff;
+}
+
+/* end .content-banner-block */
+
+.page-care-and-share_content {
+  bottom: 20%;
+}
+
+.page-care-and-share_content h1 {
+  font-size: 4rem;
+}
+
+.page-care-and-share_content button {
+  background: #fff;
+  border: none;
+  /* transition: .2s linear; */
+}
+
+.page-care-and-share_content button:hover {
+  background: #D9D9DE;
+}
+
+/* end .content-page-care-and-share */
+
+.content-brands .brand-content h1 {
+  font-size: 3.5rem;
+}
+
+.content-brands .brand-block-button button {
+  border: none;
+}
+
+.content-brands .brand-block-button button:hover {
+  background: #D9D9DE;
+}
+
+/* end .content-brands */
+
+.content-collections .collection-item:hover{
+  filter: brightness(80%);
+}
+
+.content-collections .collection-item:hover img{
+  cursor: pointer;
+}
+
+/* end .content-collections */
+
+.content-diary .diary-slider::after {
+  content: "";
+  background: url(./images/images-diary/mceclip1_icon.png);
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  font-size: 13px;
+  background-size: 30px;
+  right: 1rem;
+  top: 0.5rem;
+}
+
+.content-diary .diary-slider .slick-arrow {
+    width: 3rem;
+    height: 3rem;
+    color: #000;
+    font-size: 2rem;
+  margin: 0 -1.5rem;
+}
+
+.content-diary .diary-slider .slick-arrow::before {
+  display: none;
+}
+
+/* end .content-diary */
+
+/* end #content */
