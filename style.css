@@ -728,7 +728,7 @@ input:focus {outline:none!important;}
 
 /* end .content-collections */
 
-.content-diary .diary-slider::after {
+.content-diary .diary-slider div::after {
   content: "";
   background: url(./images/images-diary/mceclip1_icon.png);
   position: absolute;
