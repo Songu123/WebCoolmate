@@ -10,6 +10,17 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+      }
+      </style>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
     <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
@@ -17,7 +28,7 @@
   </head>
   <body>
     <div id="wrapper" class="wrapper">
-      <div id="header">
+      <div id="header" class="header fixed-top">
         <!-- navbar phần trên cùng -->
         <div class="navbar navbar-expand-lg bg-body-tertiary">
           <div class=" container-fluid height-35">
@@ -835,7 +846,7 @@
                     <div class="pseudo-search h-100 w-100"></div>
                     <div class="menu-search-content bg-white w-75 h-100 position-absolute rounded-3">
                       <div class="menu-search-container h-100 w-100">
-                        <div class="text-black">
+                        <div class="text-black px-3">
                           <p class="fs-5">Từ khoá nổi bật ngày hôm nay</p>
                           <div class="">
                             <button>Tập Gym</button>
@@ -848,7 +859,7 @@
                           </div>
                         </div>
                         <div class="mt-5 text-black">
-                          <p class="fs-5">Từ khoá nổi bật ngày hôm nay</p>
+                          <p class="fs-5 px-3">Từ khoá nổi bật ngày hôm nay</p>
                           <div class="d-flex">
                             <div class="menu-search-item w-25 px-3">
                               <img src="./images/images_Product/mceclip1_57.png" class="w-100 rounded-4" alt="">
@@ -911,7 +922,63 @@
               <button class="py-3 px-5 rounded-5 fs-5 fw-bold">Bán chạy nhất</button>
             </div>
             <div class="product-slider d-flex autoplay">
-              <div class="item-product px-2">
+              <div class="item-product col-6 col-sm-6 col-md-6 col-lg-2 px-2">
+                <div class="product-thumnail w-100 position-relative">
+                  <div class="product-container-img">
+                    <img src="./images/products-slider/joggerut.10.jpg" class="position-absolute product-img-01 w-100 rounded-4" alt="">
+                    <img src="./images/products-slider/img1.jpeg" class="product-img-02 w-100 rounded-4" alt="">
+                    <span class="product-tags position-absolute top-0 end-0 m-3 px-2 py-2 rounded-2 text-light fw-bold">New</span>
+                  </div>
+                  <div class="product-select">
+                    <p class="text-dark fw-bold mb-2">Thêm nhanh vào giỏ hàng +</p>
+                    <form class="d-flex flex-wrap text-center gap-1">
+                      <button class="size">
+                          <span>M</span>
+                      </button>
+                      <button class="size">
+                          <span>L</span>
+                      </button>
+                      <button class="size">
+                          <span>XL</span>
+                      </button>
+                      <button class="size">
+                          <span>2XL</span>
+                      </button>
+                      <button class="size">
+                          <span>3XL</span>
+                      </button>
+                    </form>
+                  </div>
+                </div>
+                <div class="mt-3">
+                  <div class="container-options mb-none d-flex">
+                    <div class="product-container-option">
+                      <div class="option-color rounded-5 bg-secondary"></div>
+                    </div>
+                    <div class="product-container-option">
+                      <div class="option-color rounded-5 bg-secondary"></div>
+                    </div>
+                    <div class="product-container-option">
+                      <div class="option-color rounded-5 bg-secondary"></div>
+                    </div>
+                  </div>
+                  <h3 class="mb-0">
+                    <a href="" class="text-decoration-none fw-normal text-dark">Pack 3 Shorts kẻ sọc Basics</a>
+                  </h3>
+                  <p class="mb-0 text-body-secondary">Thoáng mát / Mix màu</p>
+                  <div class="product-price my-2">
+                    <div class="">
+                      <ins class="fw-bold text-decoration-none">499.000đ</ins>
+                      <del class="fst-italic opacity-75 mx-2">500.000đ</del>
+                      <span class="text-danger">-18%</span>
+                    </div>
+                  </div>
+                  <div class="product-hint">
+                    <span class="fst-italic text-primary">Mua 2 giảm thêm 10%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product col-6 col-sm-6 col-md-6 col-lg-2 px-2">
                 <div class="product-thumnail w-100 position-relative">
                   <div class="product-container-img">
                     <img src="./images/products-slider/joggerut.10.jpg" class="position-absolute product-img-01 w-100 rounded-4" alt="">
@@ -967,63 +1034,7 @@
                   </div>
                 </div>
               </div>
-              <div class="item-product px-2">
-                <div class="product-thumnail w-100 position-relative">
-                  <div class="product-container-img">
-                    <img src="./images/products-slider/joggerut.10.jpg" class="position-absolute product-img-01 w-100 rounded-4" alt="">
-                    <img src="./images/products-slider/img1.jpeg" class="product-img-02 w-100 rounded-4" alt="">
-                    <span class="product-tags position-absolute top-0 end-0 m-3 px-2 py-1 rounded-2 text-light fw-bold">New</span>
-                  </div>
-                  <div class="product-select">
-                    <p class="text-dark fw-bold mb-2">Thêm nhanh vào giỏ hàng +</p>
-                    <form class="d-flex flex-wrap text-center gap-1">
-                      <button class="size">
-                          <span>M</span>
-                      </button>
-                      <button class="size">
-                          <span>L</span>
-                      </button>
-                      <button class="size">
-                          <span>XL</span>
-                      </button>
-                      <button class="size">
-                          <span>2XL</span>
-                      </button>
-                      <button class="size">
-                          <span>3XL</span>
-                      </button>
-                    </form>
-                  </div>
-                </div>
-                <div class="mt-3">
-                  <div class="container-options mb-none d-flex">
-                    <div class="product-container-option">
-                      <div class="option-color rounded-5 bg-secondary"></div>
-                    </div>
-                    <div class="product-container-option">
-                      <div class="option-color rounded-5 bg-secondary"></div>
-                    </div>
-                    <div class="product-container-option">
-                      <div class="option-color rounded-5 bg-secondary"></div>
-                    </div>
-                  </div>
-                  <h3 class="mb-0">
-                    <a href="" class="text-decoration-none fw-normal text-dark">Pack 3 Shorts kẻ sọc Basics</a>
-                  </h3>
-                  <p class="mb-0 text-body-secondary">Thoáng mát / Mix màu</p>
-                  <div class="product-price my-2">
-                    <div class="">
-                      <ins class="fw-bold text-decoration-none">499.000đ</ins>
-                      <del class="fst-italic opacity-75 mx-2">500.000đ</del>
-                      <span class="text-danger">-18%</span>
-                    </div>
-                  </div>
-                  <div class="product-hint">
-                    <span class="fst-italic text-primary">Mua 2 giảm thêm 10%</span>
-                  </div>
-                </div>
-              </div>
-              <div class="item-product px-2">
+              <div class="item-product col-6 col-sm-6 col-md-6 col-lg-2 px-2">
                 <div class="product-thumnail w-100 position-relative">
                   <div class="">
                     <img src="./images/products-slider/img01.jpeg" class="product-img w-100 rounded-4" alt="">
@@ -1076,7 +1087,7 @@
                     <span class="fst-italic text-primary">Mua 2 giảm thêm 10%</span>
                   </div>
                 </div>
-              </div><div class="item-product px-2">
+              </div><div class="item-product col-6 col-sm-6 col-md-6 col-lg-2 px-2">
                 <div class="product-thumnail w-100 position-relative">
                   <div class="">
                     <img src="./images/products-slider/img01.jpeg" class="product-img w-100 rounded-4" alt="">
@@ -1129,7 +1140,7 @@
                     <span class="fst-italic text-primary">Mua 2 giảm thêm 10%</span>
                   </div>
                 </div>
-              </div><div class="item-product px-2">
+              </div><div class="item-product col-6 col-sm-6 col-md-6 col-lg-2 px-2">
                 <div class="product-thumnail w-100 position-relative">
                   <div class="">
                     <img src="./images/products-slider/img01.jpeg" class="product-img w-100 rounded-4" alt="">
@@ -1182,7 +1193,7 @@
                     <span class="fst-italic text-primary">Mua 2 giảm thêm 10%</span>
                   </div>
                 </div>
-              </div><div class="item-product px-2">
+              </div><div class="item-product col-6 col-sm-6 col-md-6 col-lg-2 px-2">
                 <div class="product-thumnail w-100 position-relative">
                   <div class="product-container-img">
                     <img src="./images/products-slider/img01.jpeg" class="w-100 rounded-4" alt="">
@@ -2062,7 +2073,7 @@
                   <img src="./images/images-diary/mceclip0_24.jpeg" class="w-100 h-100 rounded-2" alt="">
                 </div>
                 <div class="w-100 px-2 position-relative">
-                  <img src="./images/images-diary/mceclip0_105.jpeg" class="w-100 h-100 rounded-2" alt="">
+                  <img src="./images/images-diary/mceclip1_3.jpeg" class="w-100 h-100 rounded-2" alt="">
                 </div>
             </div>
           </div>
@@ -2070,6 +2081,189 @@
         <!-- end .content-diary -->
       </div>
       <!-- end #content -->
+      <div id="footer" class="bg-black">
+        <div class="container py-5">
+          <div class="footer-inner d-flex px-2">
+            <div class="footer-inner_content">
+              <h1 class="fs-4 fw-bold">COOLMATE lắng nghe bạn!</h1>
+              <p>Chúng tôi luôn trân trọng và mong đợi nhận được mọi ý kiến đóng góp từ khách hàng để có thể nâng cấp trải nghiệm dịch vụ và sản phẩm tốt hơn nữa.</p>
+              <button class="py-3 px-5 rounded-4 fw-bold my-4">Đóng góp ý kiến</button>
+            </div>
+            <div class="footer-inner_content d-flex justify-content-center">
+              <div class="">
+                <div class="d-flex mb-4">
+                  <img src="./images/footer-inner/icon-hotline.svg" alt="">
+                  <div class="ms-3">
+                    <span>Hotline</span>
+                    <h1 class="fw-bold fs-4">
+                      <a href="" class="text-light text-decoration-none">1900.272737 - 028.7777.2737</a><br>
+                      <p>(8:30 - 22:00)</p>
+                    </h1>
+                  </div>
+                </div>
+                <div class="d-flex mb-3">
+                  <img src="./images/footer-inner/icon-email.svg" alt="">
+                  <div class="ms-3">
+                    <span>Email</span>
+                    <h1 class="fs-4">
+                      <a href="" class="text-light text-decoration-none">Cool@coolmate.me</a>
+                    </h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer-inner_content d-flex align-items-center">
+              <div class="d-flex mb-5">
+                  <a href="" class="ms-5 d-flex align-items-center">
+                    <img src="./images/footer-inner/mceclip1_43.png" class="w-100" alt="">
+                  </a>
+                  <a href="" class="ms-5 d-flex align-items-center">
+                    <img src="./images/footer-inner/mceclip2_68.png" class="w-100" alt="">
+                  </a>
+                  <a href="" class="ms-5 d-flex align-items-center">
+                    <img src="./images/footer-inner/mceclip0_62.png" class="w-100" alt="">
+                  </a>
+                  <a href="" class="ms-5 d-flex align-items-center">
+                    <img src="./images/footer-inner/icon-instar.svg" class="w-100" alt="">
+                  </a>
+                  <a href="" class="ms-5 d-flex align-items-center">
+                    <img src="./images/footer-inner//icon-youtube.svg" class="w-100" alt="">
+                  </a>
+              </div>
+            </div>
+          </div>
+          <!-- end .footer-inner -->
+          <div class="footer-menu px-2 ">
+            <div class="footer-menu_content d-flex text-light py-5">
+              <div class="w-100">
+                <h1 class = "fs-6">COOLCLUB</h1>
+                <ul class = "ps-0">
+                  <li>
+                    <a href="">Đăng kí thành viên</a>
+                  </li>
+                  <li>
+                    <a href="">Ưu đãi và đặc quyền</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="w-100">
+                <div class="w-100">
+                  <h1 class = "fs-6">CHÍNH SÁCH</h1>
+                  <ul class = "ps-0">
+                    <li>
+                      <a href="">Chính sách đổi trả 60 ngày</a>
+                    </li>
+                    <li>
+                      <a href="">Chính sách khuyến mãi</a>
+                  </li>
+                  <li>
+                    <a href="">Chính sách bảo mật</a>
+                  </li>
+                  <li>
+                    <a href="">Chính sách giao hàng</a>
+                  </li>
+                </ul>
+                </div>
+                <div class="w-100 py-3">
+                  <h1 class = "fs-6">COOLMATE.ME</h1>
+                  <ul class = "ps-0">
+                    <li>
+                      <a href="">Chính sách đổi trả 60 ngày</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="w-100">
+                <div class="w-100">
+                  <h1 class = "fs-6">CHĂM SÓC KHÁCH HÀNG</h1>
+                  <ul class = "ps-0">
+                    <li>
+                      <a href="">Chính sách đổi trả 60 ngày</a>
+                    </li>
+                    <li>
+                      <a href="">Chính sách khuyến mãi</a>
+                    </li>
+                    <li>
+                      <a href="">Chính sách bảo mật</a>
+                    </li>
+                    <li>
+                      <a href="">Chính sách giao hàng</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="w-100 py-3">
+                  <h1 class = "fs-6">KIẾN THỨC MẶC ĐẸP</h1>
+                  <ul class = "ps-0">
+                    <li>
+                      <a href="">Chính sách đổi trả 60 ngày</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="w-100">
+                <div class="w-100">
+                  <h1 class = "fs-6">TÀI LIỆU - TUYỂN DỤNG</h1>
+                  <ul class = "ps-0">
+                    <li>
+                      <a href="">Chính sách đổi trả 60 ngày</a>
+                    </li>
+                    <li>
+                      <a href="">Chính sách khuyến mãi</a>
+                    </li>
+                    <li>
+                      <a href="">Chính sách bảo mật</a>
+                    </li>
+                    <li>
+                      <a href="">Chính sách giao hàng</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="w-100 py-3">
+                  <h1 class = "fs-6">VỀ COOLMATE</h1>
+                  <ul class = "ps-0">
+                    <li>
+                      <a href="">Chính sách đổi trả 60 ngày</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="w-100">
+                <div class="w-100">
+                  <h1 class = "fs-6">ĐỊA CHỈ LIÊN HỆ</h1>
+                  <ul class = "ps-0">
+                    <p class="pb-3"><span class="text-decoration-underline">Văn phòng Hà Nội:</span> Tầng 3-4, Tòa nhà BMM, KM2, Đường Phùng Hưng, Phường Phúc La, Quận Hà Đông, TP Hà Nội</p>
+                    <p><span class="text-decoration-underline">Văn phòng Hà Nội:</span> Tầng 3-4, Tòa nhà BMM, KM2, Đường Phùng Hưng, Phường Phúc La, Quận Hà Đông, TP Hà Nội</p>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end .footer-menu -->
+          <div class="footer-after px-2">
+          <div class="text-light d-flex justify-content-between pt-4">
+            <div class="footer-after_content">
+              <p>@ CÔNG TY TNHH FASTECH ASIA</p>
+              <span>Mã số doanh nghiệp: 0108617038. Giấy chứng nhận đăng ký doanh nghiệp do Sở Kế hoạch và Đầu tư TP Hà Nội cấp lần đầu ngày 20/02/2019.</span>
+            </div>
+            <div class="d-flex footer-menu-site">
+              <a href="">
+                <img src="./images/footer-after/handle_cert.png" alt="">
+              </a>
+              <a href="">
+                <img src="./images/footer-after/dmca_protected_15_120.png" alt="">
+              </a>
+              <a href="">
+                <img src="./images/footer-after/Coolmate-info.webp" alt="">
+              </a>
+              <a href="">
+                <img src="./images/footer-after/logoSaleNoti.webp" alt="">
+              </a>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <!-- end #footer -->
     </div>
     <!-- end #wrapper -->
     <script src="app.js"></script>
@@ -2087,8 +2281,15 @@
           slidesToScroll: 5,
           autoplay: true,
           autoplaySpeed: 3000,
-          prevArrow: '<button type="button" class="slick-custom-arrow slick-prev slick-arrow"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>',
-          nextArrow: '<button type="button" class="slick-custom-arrow slick-next slick-arrow"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>'
+          prevArrow: '<button type="button" class="slick-custom-arrow slick-prev slick-arrow"><span class="material-symbols-outlined fs-1">arrow_left_alt</span></button>',
+          nextArrow: '<button type="button" class="slick-custom-arrow slick-next slick-arrow"><span class="material-symbols-outlined fs-1">arrow_right_alt</span></button>'
+        });
+        $('.one-time').slick({
+          dots: true,
+          infinite: true,
+          speed: 300,
+          slidesToShow: 1,
+          adaptiveHeight: true
         });
     </script>
   </body>
