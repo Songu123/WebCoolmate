@@ -1,0 +1,216 @@
+    /* #content*/
+    
+    .progress {
+        height: 10px;
+    }
+    
+    .content-infor {
+        border-right: 1px solid #d9d9d9;
+    }
+    
+    .content-infor input {
+        padding: 10px 20px;
+        border: 1px solid #d9d9d9;
+        border-radius: 20px
+    }
+    
+    .border-content {
+        border: 1px solid #2f5acf !important;
+    }
+    
+    select {
+        border: 1px solid #d9d9d9;
+        padding: 10px;
+        border-radius: 20px;
+    }
+    
+    select option {
+        width: 100%;
+        left: 0;
+    }
+    
+    .content-infor .check-box-container {
+        cursor: pointer;
+    }
+    
+    .content-infor .check-box {
+        border: 1px solid #d9d9d9;
+        border-radius: 6px;
+        transition: .1s ease-in-out;
+    }
+    
+    .check-box .icon-check {
+        opacity: 0;
+        font-size: 1.5rem;
+        color: #2f5acf;
+    }
+    
+    .pay-main button {
+        background: #000;
+        color: #fff;
+        border: none;
+        transition: .2s ease-in-out;
+    }
+    
+    .pay-main button:hover {
+        background: #d9d9d9;
+        color: #000;
+    }
+    
+    .pay-item {
+        cursor: pointer;
+        border: 1px solid #d9d9d9;
+        border-radius: 20px;
+        opacity: .7;
+        transition: .1s ease-in-out;
+    }
+    
+    .pay-item:hover {
+        opacity: 1;
+        border: 1px solid #2f5acf;
+    }
+    
+    .pay-item:hover .click-choose span:first-child {
+        color: #2f5acf;
+    }
+    
+    .pay-item .click-choose span:first-child {
+        color: #d9d9d9;
+        transition: .2s linear;
+    }
+    
+    .pay-item .click-choose span:last-child {
+        opacity: 0;
+        color: #2f5acf;
+        z-index: 1;
+        transition: .1s linear;
+    }
+    
+    .pay-content span {
+        font-size: 13px;
+    }
+    
+    .color-pay {
+        color: #008fe5;
+    }
+    /* end .content-infor */
+    
+    .cart-notify {
+        border: 1px solid;
+        border-radius: 20px;
+    }
+    
+    .endow-items {
+        /* height: 300px; */
+        border: 1px solid #DA2153;
+    }
+    
+    .endow-items .slick .slick-dots {
+        bottom: -20px;
+    }
+    
+    .endow-items .slick-arrow {
+        display: none !important;
+    }
+    
+    .endow-items .endow-items_tag {
+        background: #DA2153;
+        color: #fff;
+        border-radius: 10px 0;
+    }
+    
+    .endow-item_content {
+        margin: 3.5rem 0rem 1rem 1rem;
+        /* border-right: 1px solid #d9d9d9; */
+    }
+    
+    .endow-item_content button {
+        border: none;
+        background: #000;
+        color: #fff;
+        transition: .2s ease-in-out;
+    }
+    
+    .endow-item_content button:hover {
+        background: #2f5acf;
+        color: #fff;
+    }
+    
+    .coupon {
+        transition: .2s linear;
+        overflow-y: overlay;
+    }
+    
+    .coupon:hover {
+        overflow-y: auto;
+    }
+    
+    .coupon-content:first-child {
+        background: #2f5acf;
+        color: #d9d9d9;
+    }
+    
+    .coupon-content {
+        border: 2px solid #d9d9d9;
+        margin: 0 10px;
+        transition: .2s linear;
+    }
+    
+    .coupon-content:hover {
+        background: #000;
+        color: #fff;
+    }
+    
+    .coupon-left::before {
+        content: "";
+        position: absolute;
+        z-index: 1;
+    }
+    
+    .coupon-right {
+        border-left: 3px dashed #d9d9d9;
+    }
+    
+    .voucher {
+        border: 1px solid #2f5acf;
+        color: #2f5acf;
+    }
+    
+    .discount-code input {
+        background: #d9d9d9;
+    }
+    
+    .discount-code button {
+        border: 1px solid #d9d9d9;
+        background: #000;
+        color: #fff;
+        transition: .2s linear;
+    }
+    
+    .discount-code button:hover {
+        background: #d9d9d9;
+    }
+    
+    .discount-code input:focus {
+        border: 1px solid #2f5acf;
+    }
+    
+    .bill-content {
+        border-top: 1px solid #d9d9d9;
+        border-bottom: 1px solid #d9d9d9;
+    }
+    
+    .bill-content .price-bill {
+        border-bottom: 1px solid #d9d9d9;
+    }
+    
+    .refund-item_container span {
+        color: #2f5acf;
+    }
+    
+    .refund-item {
+        background: rgb(82, 82, 82);
+        color: #fff;
+    }
+    /* end .content-cart */
+    /* end #content */

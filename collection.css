@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* begin #content */
+
+.filter-select {
+    border-top: 1px solid #ccc;
+}
+
+.filter-select .checkbox {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
+.filter-select span:first-child {
+    opacity: .5;
+    font-weight: bold;
+}
+
+.filter-size button {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: none;
+    margin-right: 5px;
+    margin-top: 10px
+}
+
+.filter-select-color {
+    height: 60px;
+    width: 60px;
+}
+
+.filter-select-color span {
+    opacity: .5;
+    font-size: 12px;
+}
+
+.filter-select-color_button {
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 1px solid #bebebe;
+}
+
+.filter-select-color_den div {
+    background: #000;
+}
+
+.filter-select-color_xam div {
+    background: #939393;
+}
+
+.filter-select-color_xanh div {
+    background: rgb(18, 87, 153);
+}
+
+.filter-select-color_be div {
+    background: rgb(214, 204, 173);
+}
+
+.filter-select-color_nau div {
+    background: rgb(155, 118, 66);
+}
+
+.filter-select-color_xanhreu div {
+    background: rgb(61, 100, 32);
+    ;
+}
+
+
+/* end #content */

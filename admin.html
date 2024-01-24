@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="admin.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="wrapper container-xxl">
+        <div class="">
+            <button type="button" class="btn bg-dark-subtle">
+                <a href="#" class="text-light text-decoration-none">Bán Chạy</a>
+            </button>
+            <button type="button" class="btn btn-secondary">
+                <a href="./quandai.html" class="text-light text-decoration-none">Quần Dài</a>
+            </button>
+            <button type="button" class="btn btn-secondary">
+                <a href="./thudong.html" class="text-light text-decoration-none">Thu Đông</a>
+            </button>
+            <button type="button" class="btn btn-secondary">
+                <a href="" class="text-light text-decoration-none">Chạy Bộ</a>
+            </button>
+        </div>
+        <h1>Quản lý sản phẩm</h1>
+        <div class="modal-add">
+            <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Thêm sản phẩm</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <input id="name" type="text" placeholder="Nhập tên sản phẩm">
+                            <!-- <input type="text" placeholder="Nhập đặc điểm"> -->
+                            <input id="price" type="text" placeholder="Nhập giá">
+                            <!-- <input type="text" placeholder="Nhập giảm giá"> -->
+                            <input id="img_1" type="text" placeholder="Nhập ảnh 1">
+                            <input id="img_2" type="text" placeholder="Nhập ảnh 2">
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-primary" onclick="addProduct()" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Thêm</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Thêm</button>
+        </div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">STT</th>
+                    <th scope="col">Tên sản phẩm</th>
+                    <!-- <th scope="col">Đặc điểm</th> -->
+                    <th scope="col">Giá</th>
+                    <!-- <th scope="col">Giảm giá</th> -->
+                    <th scope="col">Ảnh 1</th>
+                    <th scope="col">Ảnh 2</th>
+                    <th scope="col">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="./admin.js"></script>
+</body>
+
+</html>
